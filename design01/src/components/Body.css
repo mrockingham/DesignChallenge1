@@ -1,0 +1,86 @@
+.Body {
+    
+    border-right: 3px solid rgba(197, 197, 197, 0.315);
+    border-bottom: 3px solid rgba(197, 197, 197, 0.315);
+    
+    border-color: rgba(197, 197, 197, 0.315) ;
+border-image: linear-gradient(to bottom ,
+            rgb(231, 231, 231),
+            rgba(0, 0, 0, 0)) 1 100%;
+
+ height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main-Body {
+    
+    border-bottom: 3px solid rgba(197, 197, 197, 0.315);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90Deg, rgba(226, 231, 231, 0.637), rgba(214, 214, 214, 0.096));
+    margin-right: 60px;
+
+  
+}
+
+.Name {
+    border: 3px solid rgba(197, 197, 197, 0.315);
+    width: 100px;
+}
+
+.Name>h2 {
+    padding-left: 5%;
+}
+
+.Info {
+    width: 49%;
+    display: flex;
+    text-align: left;
+}
+
+.Vehical-Picker {
+    width: 49%;
+}
+
+.Title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-bottom: 25%;
+    font-size: 1.9rem;
+    color: white;
+}
+
+.Vehical-Info {
+    margin-top: 15%;
+    color: white;
+}
+
+.Information {
+    font-size: 0.9rem;
+    width: 70%;
+}
+
+.Social-Media {
+    margin-top: 48px;
+    display: flex;
+}
+
+.Twitter {
+    border: 3px solid rgb(255, 254, 254);
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Facebook {
+    border: 3px solid rgb(255, 254, 254);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.Instagram {
+    border: 3px solid rgb(255, 254, 254);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+

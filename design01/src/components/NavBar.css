@@ -1,0 +1,34 @@
+.Header{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.Header-Name{
+    color: white;
+}
+.Header>.MuiSvgIcon-root{
+    color: white;
+    padding-left: 80px;
+    font-size: 2rem;
+}
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu-Buttons{
+    display: flex;
+    background-color: white;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+.Menu-Buttons>.MuiSvgIcon-root{
+   padding: 5px 15px 5px 15px;
+ 
+}
+
+
