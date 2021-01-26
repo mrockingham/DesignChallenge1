@@ -1,7 +1,7 @@
 import React from 'react';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
+// import TwitterIcon from '@material-ui/icons/Twitter';
+// import FacebookIcon from '@material-ui/icons/Facebook';
+// import InstagramIcon from '@material-ui/icons/Instagram';
 import './Body.css';
 
 const Body = () => {
@@ -36,7 +36,7 @@ const Body = () => {
             </h3>
             <h3>Read More</h3>
           </div>
-          <div className="Social-Media">
+          {/* <div className="Social-Media">
             <div className="Twitter">
               <TwitterIcon
                 fontSize="small"
@@ -55,7 +55,7 @@ const Body = () => {
                 style={{ padding: '5px', paddingTop: '7px' }}
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
      
